@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.Css">
+    <link rel="stylesheet" href="Responsive.css">
+    <title>TO-BUY's List</title>
+
+</head>
+
+<body onload="myfunction()">
+    <div id="loading"></div>
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand m-auto h1">TO-BUY's List</span>
+        <a onload="myfunction()" href="./index2.html">
+            <button onload="myfunction()" type="button" class="btn btn-dark">Toggle Dark-Mode</button>
+        </a>
+    </nav>
+    <div class="container my-4">
+
+        <div class="form-group">
+            <label for="title" class="maintit">Title</label>
+            <input type="text" class="form-control" id="title" aria-describedby="emailHelp" placeholder="Title">
+            <small id="emailHelp" class="form-text text-muted">Add an item to the list</small>
+        </div>
+
+        <div class="form-group">
+            <label for="title" class="maintit">Description</label>
+            <div class="input-group-prepend">
+            </div>
+            <textarea class="form-control" id="description" aria-label="With textarea"
+                placeholder="Description"></textarea>
+        </div>
+
+        <button onload="myfunction()" type="" class="btn btn-primary" id="add">Add To List</button>
+        <button onload="myfunction()" type="" class="btn btn-danger" id="add" onclick="clearlist()">Clear List</button>
+
+
+
+
+    </div>
+
+    <div id="items" class="my-2">
+        <h3 class="headeri">Your Items</h3>
+        <!-- <hr class="breakline"> -->
+
+        <table class="table my-3">
+            <thead>
+                <tr>
+                    <th scope="col">S:No</th>
+                    <th scope="col">Item Title</th>
+                    <th scope="col">Item Description</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Coffe</td>
+                    <td>You need to have a coffee</td>
+                    <td><button class="btn btn-primary">Delete</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p class="footer">Developed By Mohammed Arshad <br>
+            <a onload="myfunction()" href="https://www.github.com/iamkingarsh/" target="_blank">Follow Me On GitHub</a>
+        </p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

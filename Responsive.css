@@ -1,0 +1,53 @@
+/* Media Queries */
+                
+@media only screen and (max-width: 600px) {
+    body{
+    
+    }
+
+    .navbar {
+        width: 100%;
+
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .container {
+        margin: 3px 22px;
+        width: auto;
+    }
+    .form-group {
+        width: 100vw;
+    }
+    .btn-primary {
+        font-size: 10px;
+    }
+    .btn-danger {
+        font-size: 10px;
+    }
+    #items {
+        margin: 2px -205px;
+        font-size: 12px;
+        width: fit-content;
+        overflow: visible;
+        
+        
+    }
+    .table {
+        width: 63%;
+        max-width: 100%;
+        margin-left: 14rem;
+        overflow: visible;
+
+    }
+    #tablebody{
+        overflow: scroll;
+    }
+    .footer{
+        width: 100vw;
+        font-size: 12px;
+    }
+    body{
+        overflow: hidden;
+    }
+}

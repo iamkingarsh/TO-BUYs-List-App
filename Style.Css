@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+#loading{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    background: url(./img/813.gif)no-repeat center ;
+    z-index: -9999;
+    overflow: hidden;
+    
+
+}
+
+.navbar{
+    /* position: relative; */
+
+}
+.navbar-brand {
+    font-size: 25px;
+}
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    justify-content: center;
+    margin: 0px 226px;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.form-control {
+    Display: block;
+    width: 80%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 2px solid #007bff;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    overflow: hidden;
+}
+
+.form-group {
+    width: 81vw;
+    overflow: hidden;
+}
+
+.breakline {
+    margin: 0px 237px;
+    
+}
+
+.headeri {
+    margin-left: 15rem;
+    font-size: 25px;
+    
+}
+
+.table {
+    width: 100%;
+    max-width: 66%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    margin-left: 15rem;
+    overflow: hidden;
+}
+
+.form-control {
+    
+    overflow: hidden;
+}
+
+.form-control:focus {
+    
+}
+
+.form-control:placeholder-shown {
+    color: #ccc;
+}
+
+.footer {
+    background-color: rgb(0, 123, 255);
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    overflow: hidden;
+    position: fixed;
+    display: block;
+}
+
+a {
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+#items {
+    width: 100vw;
+    overflow: hidden;
+    
+}

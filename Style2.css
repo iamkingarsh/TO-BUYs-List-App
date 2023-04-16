@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+#loading{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    background: url(./img/813.gif)no-repeat center ;
+    z-index: -9999;
+    overflow: hidden;
+}
+
+.navbar{
+    /* position: relative; */
+
+}
+.navbar-brand {
+    font-size: 25px;
+}
+
+
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+body {
+    background-color: #24272b;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    justify-content: center;
+    margin: 0px 226px;
+    width: fit-content;
+    background-color: #24272b;
+    overflow: hidden;
+}
+
+.form-control {
+    Display: block;
+    width: 80%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f8f9fa;
+    background-clip: padding-box;
+    border: 2px solid #007bff;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    overflow: hidden;
+}
+
+.form-group {
+    width: 81vw;
+    overflow: hidden;
+}
+
+.breakline {
+    margin: 0px 237px;
+    border-top: 2px solid rgba(255, 255, 255, 0.664);
+}
+
+.headeri {
+    margin-left: 15rem;
+    font-size: 25px;
+    
+}
+
+.table {
+    width: 100%;
+    max-width: 66%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    margin-left: 15rem;
+    overflow: hidden;
+}
+
+.form-control {
+    background-color: #1e1d1d;
+    overflow: hidden;
+}
+
+.form-control:focus {
+    background-color: #1e1d1d;
+    color: #ccc;
+}
+
+.form-control:placeholder-shown {
+    color: #ccc;
+}
+
+.footer {
+    background-color: rgb(0, 123, 255);
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    overflow: hidden;
+    position: fixed;
+    display: block;
+}
+
+a {
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+#items {
+    width: 100vw;
+    overflow: hidden;
+    
+}
